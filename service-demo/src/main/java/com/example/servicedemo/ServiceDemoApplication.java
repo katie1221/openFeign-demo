@@ -1,0 +1,16 @@
+package com.example.servicedemo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @author qzz
+ */
+@SpringBootApplication
+public class ServiceDemoApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ServiceDemoApplication.class, args);
+    }
+
+}
